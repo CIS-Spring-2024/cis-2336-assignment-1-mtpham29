@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:aliceblue;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* styling biography */
+.box{
+    width: 450px;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box-img{
+    width: 350px ;
+}
+/* styling home page */
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.navbar{
+    background-color:crimson;
+    overflow: hidden;
+}
+.navbar a{
+    text-align: center;
+    color:antiquewhite;
+    padding: 40px;
+    font-size: 20px;
+}
+.navbar a:hover{
+    background-color:lightgray;
+    color:black;
+}
+.navbar a:active{
+    background-color: darkred;
+    color: white;
+}
+.mainpage{
+    text-align: left;
+    margin: 40px;
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+}
+#homepagepic{
+    float:right;
+    width: 20%;
+    height: 20%;
+}
+footer{
+    font-size:small;
+    background-color:crimson;
+    color:white;
+}
